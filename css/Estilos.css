@@ -1,0 +1,148 @@
+html, body, .PaginaPrincipal{
+    margin: 0%;
+    height: 900px;
+    width: 1440px; 
+}
+
+.imagenChallenge{
+    height: 500px;
+    width: 800px;
+    margin: 200px 320px; 
+    position: absolute; 
+}
+
+.botonCircular{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    border-color: rgb(255, 255, 255, 0);
+    margin-top: 103px;
+    margin-left: 100px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#principal{
+    z-index: 1;
+}
+
+#menu{ 
+    position: absolute;
+    background-color: red; 
+    height: 900px; 
+    width: 1107px;
+    z-index: 2;  
+}
+
+#sobrante{ 
+    position: absolute;
+    height: 900px; 
+    width: 333px;
+    margin-left: 1107px;  
+}
+
+@keyframes IzqADer { 
+    from { left: -1440px; }
+    to { left: 0px; }   
+}
+
+@-webkit-keyframes IzqADer { 
+    from { left: -1440px; }
+    to { left: 0px; }   
+}
+
+#menu{
+    animation-name: IzqADer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+		
+    -webkit-animation-name: IzqADer;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+#menu.transicion{ 
+    position: absolute;
+    background-color: red; 
+    height: 900px; 
+    width: 1107px;
+    z-index: 3;  
+}
+
+@keyframes DerAIzq { 
+    from { left: 0px; }
+    to { left: -1440px; }   
+}
+
+@-webkit-keyframes DerAIzq { 
+    from { left: 0px; }
+    to { left: -1440px; }   
+}
+
+#menu.transicion{
+    animation-name: DerAIzq;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: DerAIzq;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.botonConBorde{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid;
+    background: rgba(255, 255, 255, 0);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.letra{
+    position: absolute;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-left: 200px;
+}
+
+.titulo{
+    width: 222px;
+    height: 46px;
+    font-size: 35px;
+    line-height: 46px;  
+}
+
+.subtitulo{
+    width: 159px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px; 
+}
+
+#placeholder1{
+    margin-top: 200px; 
+}
+
+#placeholder2{
+    margin-top: 296px;     
+}
+
+#placeholder3{
+    margin-top: 392px; 
+}
+
+#placeholder4{
+    margin-top: 595px; 
+}
+
+#placeholder5{
+    margin-top: 660px; 
+}
+
